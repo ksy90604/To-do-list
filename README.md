@@ -52,10 +52,10 @@ RESTful api를 사용하여 구현한 To-do list web application
 ```
 # 5. 화면
 > 리스트
-![Github](To-do-list-server/리스트.JPG)
+![Github](https://github.com/ksy90604/To-do-list-server/blob/master/%EB%A6%AC%EC%8A%A4%ED%8A%B8.JPG)
 
 > 할일 입력 후 추가버튼 클릭 > 확인 > 참조 팝업
-![Github](To-do-list-server/팝업.JPG)
+![Github](https://github.com/ksy90604/To-do-list-server/blob/master/%ED%8C%9D%EC%97%85.JPG)
 
 > 리스트의 제목을 누르면 수정 페이지로 
-![Github](To-do-list-server/수정.JPG)
+![Github](https://github.com/ksy90604/To-do-list-server/blob/master/%EC%88%98%EC%A0%95.JPG)
