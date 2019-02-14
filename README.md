@@ -1,6 +1,6 @@
 # To-do-list(server)
 RESTful api를 사용하여 구현한 To-do list web application
-># 1.개발도구
+# 1.개발도구
 ## 1) To-do List server
 ```
 - Framework : Spring Boot 2.1.2
@@ -15,33 +15,33 @@ RESTful api를 사용하여 구현한 To-do list web application
 - 사용언어 및 구현 기술 : Java, Jquery, Javascrpit, ajax, json
 ```
 
-># 2.개발환경
+# 2.개발환경
 ```
 - OS : windows8 64bit
 - IDE : Eclipse photon
 - JDK 1.8
 ```
 
-># 3. 실행 방법
+# 3. 실행 방법
 
 ## eclipse 사용 시 
-```
-- project 마우스 오른쪽 버튼 클릭 > Run As > Spring Boot App
-```
+
+> project 마우스 오른쪽 버튼 클릭 > Run As > Spring Boot App
+
 ## To-do list server
-> Port 변경 시 : ..src\main\resources\application.properties 에서 수정
+> Port 변경 시 : ..src/main/resources/application.properties 에서 수정
 ```
 - 로컬호스트 접속 url : http://localhost:8080/task/list
 - 기본으로 입력 된 데이터가 나오는지 확인
 - 포함되어 있는 sql 문으로 기본 값 세팅
- >task/src/main/resources/schema.sql
- >task/src/main/resources/import.sql
+ > task/src/main/resources/schema.sql
+ > task/src/main/resources/import.sql
 ```
 ## To-do list client
 ```
 - 로컬호스트 접속 url : http://localhost:8090/client/toDoList
 ```
-># 4. 기능
+# 4. 기능
 ```
 * 텍스트로 된 할 일 추가(POST)
   * 할일 추가 시 다른 할 일 참조 가능
@@ -50,3 +50,12 @@ RESTful api를 사용하여 구현한 To-do list web application
 * 사용자는 할일을 완료처리(PUT)
   * 참조가 걸린 완료되지 않은 할 일이 있다면 완료처리 불가 
 ```
+# 5. 화면
+> 리스트
+![Github](To-do-list-server/리스트.JPG)
+
+> 할일 입력 후 추가버튼 클릭 > 확인 > 참조 팝업
+![Github](To-do-list-server/팝업.JPG)
+
+> 리스트의 제목을 누르면 수정 페이지로 
+![Github](To-do-list-server/수정.JPG)
